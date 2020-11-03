@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe("App Test", () => {
-    it(`ultraFastTest`, function () {
+    it(`ultraFastTesting`, function () {
         // Navigate to the url we want to test
         // ⭐️ Note to see visual bugs, run the test using the above URL for the 1st run.
         // but then change the above URL to https://demo.applitools.com/index_v2.html
