@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("AppTest", () => {
+describe("App Test", () => {
     it(`ultraFastTest`, function () {
         // Navigate to the url we want to test
         // ⭐️ Note to see visual bugs, run the test using the above URL for the 1st run.
@@ -9,7 +9,7 @@ describe("AppTest", () => {
         cy.visit('https://demo.applitools.com');
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
-            appName: 'Demo App',
+            appName: 'Demoing App',
             testName: 'UltraFast grid demo',
         })
         // check the login page with fluent api, see more info here
