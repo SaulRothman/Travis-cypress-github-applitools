@@ -9,7 +9,7 @@ describe("AppTest", () => {
         cy.visit('https://demo.applitools.com');
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
-            appName: 'Demo App',
+            appName: 'Demo Apps',
             testName: 'Ultrafast grid demo',
         })
         // check the login page with fluent api, see more info here
